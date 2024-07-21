@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Simplificado</title>
+    <style>
+        body{
+            background-color: #0367A6;
+            
+        }
+        h1{
+            font-size: 3em;
+            text-align: center;
+        }
+        nav{
+            font-size: 1.3em;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-top: 100px;
+            background-color: #BF1F3C;
+            width: 50%;
+            margin: auto;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        a{
+            padding: 10px 10px 10px 10px;
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            background-color: #991f1f;
+            transition: 0.5s;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Menu Horizontal Simples</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Compras</a>
+        <a href="#">Dúvidas</a>
+        <a href="#">Produtos</a>
+        <a href="#">Fórum</a>
+    </nav>
+</body>
+</html>
